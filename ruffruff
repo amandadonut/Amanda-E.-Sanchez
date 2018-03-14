@@ -1,0 +1,78 @@
+from random import randint
+## My Variables
+fouls= air ball/ 2 points
+plays = 3
+
+##
+
+def start():
+    print 'There are ten seconds left up on the shot clock of the 4th quarter at your high school City Final Champion game, you are at the three point shot mark with your sweaty palms on the ball. And your team is down by one point.
+You are in full control with the play with the ball in your hands.\n'
+    print 'Factors to consider:\n'
+    print 'You want to make sure you are memorable on the court because you don’t get much time out there. You are a part of this last play that either makes or breaks your team by taking home the City Championship or going home empty handed....\n'
+    print 'You have three choices : pass to a teammate, go in for the lay up, or risk the chance of shooting a three-pointer/ possible air ball.'
+
+def choose():
+    print "Pick a play to follow up with"
+    print "Type 1 to pass to teammate"
+    print "Type 2 to go for layup"
+    print 'Type 3 to shoot from three-pointer'
+
+def add_play():
+ play = play + 1
+  if play == foul:
+      print 'Shooter shoots two shot from free throw line... Second chance'
+  return balls
+
+def lose():
+  print "Silver isn’t Gold, sorry:(\n"
+
+def count():
+  print ("The count is "+ str(play) + " and " + str(foul) + '\n')
+ 
+
+def game_start():
+ 
+  start()
+  choose()
+  while play<= 3 and fouls <= 2:
+    the_play = raw_input("What is your choice?")
+    if the_play == '1':
+      pass to teammate()
+    if the_play == '2':
+      go for layup()
+    if the_play == '3':
+       shoot from three-pointer()
+    count()
+
+def pass to teammate():
+    play = randint(clean move)
+    if play>=no block:
+        add_play()
+    elif play< no block and play>=foul:
+    else:
+      lose()
+        
+def go for layup():
+    play = randint(clean move)
+    if play >= no block:
+        add_play()
+    elif play < no block and play >=foul:
+        add_air ball()
+    else:
+      lose()
+      
+def shoot from three-pointer():
+    play = randint(clean move)
+    if play >= no block:
+        add_play()
+    elif play < clean move and play >=foul:
+        add_air ball()
+    else:
+      lose()
+        
+    
+    
+  
+    
+
